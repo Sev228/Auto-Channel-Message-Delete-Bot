@@ -6,9 +6,9 @@ PREREQUIS :
 <a href="https://nodejs.org/fr/download" target="_blank">Telecharger Nodejs</a>
 
 2- Installer le module d'API de bot Telegram
-
+```bash
 npm install node-telegram-bot-api
-
+```
 TRAVAIL A FAIRE EN AMONT:
 
 1- Creer votre bot Telegram avec BotFather et recuperez le TOKEN
@@ -23,10 +23,10 @@ ETAPE INTERMEDIAIRE :
 
 UTILISATION DU SCRIPT :
 
-1-Premierement lancez getadmin.js pour recuperer la liste des administrateurs de votre canal. Il sera creer unn fichier adminlist.txt dans votre repertoire, le fichier conntiendra les signatures de chacun de votre administrateurs.
-
+1-Premierement lancez getadmin.js pour recuperer la liste des administrateurs de votre canal. Il sera creer unn fichier adminlist.txt dans votre repertoire, le fichier contiendra les signatures de chacun de votre administrateurs.
+```bash
 node getadmin.js
-
+```
 ETAPE INTERMEDIAIRE FINALE:
 
 2-Remplacer les mots clés  YOUR_BOT_TOKEN et YOUR_ID (par le TOKEN de votre bot et votre ID TELEGRAM , pas votre username) dans le fichier autodeleter.js (Ligne 2 et Ligne 9)
@@ -36,5 +36,6 @@ ETAPE INTERMEDIAIRE FINALE:
 UTILISATION FINALE DU SCRIPT :
 
 2-Lancer autodeleter.js et laissez le travail se faire😋
-
+```bash
 node autodeleter.js
+```
